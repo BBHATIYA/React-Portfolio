@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/portimg4.png";
-import TypeWriter from "./TypeWriter.js";
-import SocialMedia from "../SocialMedia.js";
+import SocialMedia from "../SocialMedia";
+import TypeWriter from "./TypeWriter";
 
 function Home() {
   return (
@@ -12,7 +12,10 @@ function Home() {
           <Row>
             <Col md={6} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!
+                Hi There!{" "}
+                <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
               </h1>
 
               <h1 className="heading-name">
