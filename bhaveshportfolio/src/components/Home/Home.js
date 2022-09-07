@@ -4,7 +4,6 @@ import myImg from "../../Assets/portimg4.png";
 import TypeWriter from "./TypeWriter.js";
 import SocialMedia from "../SocialMedia.js";
 
-
 function Home() {
   return (
     <section>
@@ -13,10 +12,7 @@ function Home() {
           <Row>
             <Col md={6} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
+                Hi There!
               </h1>
 
               <h1 className="heading-name">
